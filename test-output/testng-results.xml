@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="4" failed="7" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on Kolkata link]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Home Interior Design Services ]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Home Interior Design Services ]]>
+    </line>
+    <line>
+      <![CDATA[bangalore is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[bangalore is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Home Interior Design Services ]]>
+    </line>
+    <line>
+      <![CDATA[user is able to navigate to Interior Designers in New Delhi]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Kolkata]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on View All New projects]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on project]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on expert reviews]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link can see submobules]]>
+    </line>
+    <line>
+      <![CDATA[user is  able click on Modular Kitchen Design Ideas]]>
+    </line>
+    <line>
+      <![CDATA[user is be able to click on l-shape]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link can see submobules]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on 1bhk interior design ]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on select city]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on 1bhk interior design ]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[mouse hover on homeInterior link]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on 1bhk interior design ]]>
+    </line>
+    <line>
+      <![CDATA[lunching Browser and Navigating to the url]]>
+    </line>
+    <line>
+      <![CDATA[The user should be able to hover on login link]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-14T09:53:38 IST" name="Default suite" finished-at="2024-11-14T10:00:29 IST" duration-ms="411113">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-14T09:53:38 IST" name="Default test" finished-at="2024-11-14T10:00:29 IST" duration-ms="411113">
+      <class name="com.runners.ParellelRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:53:38 IST" name="setUpClass" finished-at="2024-11-14T09:53:38 IST" duration-ms="553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@769d513]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:53:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:56:04 IST" duration-ms="145281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate  to kolkata new projects and PropWorth Insights"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Kolkata new projects"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on Kolkata link]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Kolkata]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on View All New projects]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on project]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on expert reviews]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:53:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:54:57 IST" duration-ms="78534" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to the Square Panels page and see location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["InteriorDesigners"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]"}
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a5c418e27505a0f4b1c248a3cd58850, findElement {using=xpath, value=(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a5c418e27505a0f4b1c248a3cd58850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]"}
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a5c418e27505a0f4b1c248a3cd58850, findElement {using=xpath, value=(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a5c418e27505a0f4b1c248a3cd58850
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.InteriorDesigners.user_should_be_able_to_click_on_select_locality(InteriorDesigners.java:49)
+at ✽.user should be able to click on Select locality(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/InteriorDesigners.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Home Interior Design Services ]]>
+            </line>
+            <line>
+              <![CDATA[bangalore is dispalyed]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Home Interior Design Services ]]>
+            </line>
+            <line>
+              <![CDATA[user is able to navigate to Interior Designers in New Delhi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:53:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:54:42 IST" duration-ms="63143" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on  Bangalore and navigate to the Interior Designers in Bangalore"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Services"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da2df0238d83f69f5efd4338aaddf37e, clickElement {id=f.E48C762BC0E328AA124EBBEF28694E96.d.9FF39176DFB1F9E1EBCA1E58E46D0CBC.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58860/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da2df0238d83f69f5efd4338aaddf37e)] -> xpath: //a[text()='Bangalore']]
+Session ID: da2df0238d83f69f5efd4338aaddf37e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da2df0238d83f69f5efd4338aaddf37e, clickElement {id=f.E48C762BC0E328AA124EBBEF28694E96.d.9FF39176DFB1F9E1EBCA1E58E46D0CBC.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58860/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da2df0238d83f69f5efd4338aaddf37e)] -> xpath: //a[text()='Bangalore']]
+Session ID: da2df0238d83f69f5efd4338aaddf37e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.Services.user_should_be_able_to_click_on_bangalore(Services.java:64)
+at ✽.user should be able to click on bangalore(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/%20services.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Home Interior Design Services ]]>
+            </line>
+            <line>
+              <![CDATA[bangalore is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:54:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:57:40 IST" duration-ms="178519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Modular Kitchen and click on Design Ideas"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicBricksBackground"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link can see submobules]]>
+            </line>
+            <line>
+              <![CDATA[user is  able click on Modular Kitchen Design Ideas]]>
+            </line>
+            <line>
+              <![CDATA[user is be able to click on l-shape]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:54:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:57:16 IST" duration-ms="138826" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Bathroom and click on  Design Ideas"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicBricksBackground"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71d8932e6a8c29846d55ab74e867a16, clickElement {id=f.F38A3C466466A6C08A3F0FCBBB033EF4.d.383492BCAE568A138A6E640E4619B121.e.129}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49774/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f71d8932e6a8c29846d55ab74e867a16)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f71d8932e6a8c29846d55ab74e867a16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71d8932e6a8c29846d55ab74e867a16, clickElement {id=f.F38A3C466466A6C08A3F0FCBBB033EF4.d.383492BCAE568A138A6E640E4619B121.e.129}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49774/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f71d8932e6a8c29846d55ab74e867a16)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f71d8932e6a8c29846d55ab74e867a16
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue(MagicLogin.java:46)
+at ✽.user should be able to click on continue(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/magicBricksBackground.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:56:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:58:16 IST" duration-ms="132211" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user can login to the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicLogin"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9691b3d5699ef2bc7de5b033e77d072, clickElement {id=f.92A6365AD7886FF7B3AC8244F4B3DE07.d.8C1EAD17E2C000DC19C72AB3D60EC560.e.134}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9691b3d5699ef2bc7de5b033e77d072)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f9691b3d5699ef2bc7de5b033e77d072]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9691b3d5699ef2bc7de5b033e77d072, clickElement {id=f.92A6365AD7886FF7B3AC8244F4B3DE07.d.8C1EAD17E2C000DC19C72AB3D60EC560.e.134}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9691b3d5699ef2bc7de5b033e77d072)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f9691b3d5699ef2bc7de5b033e77d072
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue(MagicLogin.java:46)
+at ✽.user should be able to click on continue(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/magicLogin.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:57:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:58:01 IST" duration-ms="45280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to mouse hover on home interiors"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Hover on Home Interior"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link can see submobules]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:57:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:58:36 IST" duration-ms="55727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user can change the select city in verified properties and navigate to that particular page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select City"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on 1bhk interior design ]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on select city]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:58:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:58:46 IST" duration-ms="44988" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user can change the select city in verified properties and navigate to that particular page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select City"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fce61c8803aeaaa7db2581d6279c9ed1, clickElement {id=f.10C6B8584FCAB3565E1967898525BD97.d.958BD3BE3A054634CE6AF9D5D32CEEC6.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51610}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51610/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fce61c8803aeaaa7db2581d6279c9ed1)] -> xpath: //div[text()='Select City']]
+Session ID: fce61c8803aeaaa7db2581d6279c9ed1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fce61c8803aeaaa7db2581d6279c9ed1, clickElement {id=f.10C6B8584FCAB3565E1967898525BD97.d.958BD3BE3A054634CE6AF9D5D32CEEC6.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51610}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51610/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fce61c8803aeaaa7db2581d6279c9ed1)] -> xpath: //div[text()='Select City']]
+Session ID: fce61c8803aeaaa7db2581d6279c9ed1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.SelectCity.user_should_be_able_to_click_on_select_city(SelectCity.java:33)
+at ✽.user should be able to click on select city(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/selectCity.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on 1bhk interior design ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:58:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T09:58:59 IST" duration-ms="43498" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user can change the select city in verified properties and navigate to that particular page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select City"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4557a7616fe316e7ea44626b2c04bdea, clickElement {id=f.734DF51F3EAF1ED03467816AFAF82391.d.3F635600353E03F68E1C9DE8764D9260.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4557a7616fe316e7ea44626b2c04bdea)] -> xpath: //div[text()='Select City']]
+Session ID: 4557a7616fe316e7ea44626b2c04bdea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4557a7616fe316e7ea44626b2c04bdea, clickElement {id=f.734DF51F3EAF1ED03467816AFAF82391.d.3F635600353E03F68E1C9DE8764D9260.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4557a7616fe316e7ea44626b2c04bdea)] -> xpath: //div[text()='Select City']]
+Session ID: 4557a7616fe316e7ea44626b2c04bdea
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.SelectCity.user_should_be_able_to_click_on_select_city(SelectCity.java:33)
+at ✽.user should be able to click on select city(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/selectCity.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[mouse hover on homeInterior link]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on 1bhk interior design ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T09:58:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-14T10:00:29 IST" duration-ms="112785" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user can sign in to the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To SignUp"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4eca7c7ad61a6cb5ad36aefd78d38b0f, findElement {using=xpath, value=//button[@onclick='verifyOtp()']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57436/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eca7c7ad61a6cb5ad36aefd78d38b0f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4eca7c7ad61a6cb5ad36aefd78d38b0f, findElement {using=xpath, value=//button[@onclick='verifyOtp()']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57436/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eca7c7ad61a6cb5ad36aefd78d38b0f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.HiSignUp.click_on_continue_button(HiSignUp.java:57)
+at ✽.Click on continue button(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/signup.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+            <line>
+              <![CDATA[lunching Browser and Navigating to the url]]>
+            </line>
+            <line>
+              <![CDATA[The user should be able to hover on login link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.ParellelRunner@533bda92]" started-at="2024-11-14T10:00:29 IST" name="tearDownClass" finished-at="2024-11-14T10:00:29 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.ParellelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1416 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 14, 2024 09:53:38 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Kolkata new projects</p>
+            <p class="text-sm">
+              <span>9:53:39 am</span> / <span>00:02:25:074</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Kolkata new projects</h5>
+<span class='badge badge-success'>11.14.2024 9:53:39 am</span>
+<span class='badge badge-danger'>11.14.2024 9:56:04 am</span>
+<span class='badge badge-default'>00:02:25:074</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to navigate  to kolkata new projects and PropWorth Insights</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_mouse_hover_on_the_kolkata_and_navigated_to_kolkata_page()">
+                <span>When user is able to mouse hover on the kolkata and navigated to kolkata page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_click_on_properties_listed_for_you_and_navigated_to_house_for_sale_in_kolkata()">
+                <span>And user is able to scroll down and click on  Properties listed for you and navigated to House for Sale in Kolkata</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_click_on_new_project_and_navigated_to_new_project_page()">
+                <span>And user is able to click on new project and navigated to new project page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_click_on_expert_reviews()">
+                <span>And user is able to click on Expert Reviews</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_click_on_sunrise_meadows_and_scroll_down_to_prop_worth_insights()">
+                <span>And user is able to click on sunrise meadows and scroll down to PropWorth Insights</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.ItKolkata.user_is_able_to_click_on_locality_and_park_circus_and_purba_barisha_and_kalyani()">
+                <span>Then user is able to click on Locality and Park Circus and Purba Barisha and Kalyani</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">InteriorDesigners</p>
+            <p class="text-sm">
+              <span>9:53:39 am</span> / <span>00:01:18:314</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">InteriorDesigners</h5>
+<span class='badge badge-success'>11.14.2024 9:53:39 am</span>
+<span class='badge badge-danger'>11.14.2024 9:54:57 am</span>
+<span class='badge badge-default'>00:01:18:314</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to navigate to the Square Panels page and see location</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_mouse_hover_on_home_interior_link()">
+                <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.Services.user_should_be_able_to_click_on_home_interior_design_services()">
+                <span>And user should be able to click on Home Interior Design Services</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.Services.user_should_be_able_to_navigated_to_home_interior_design_services_page()">
+                <span>And user should be able to navigated to  Home Interior Design Services page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_mouse_hover_on_home_interiorslink()">
+                <span>And user should be able to mouse hover on homeInteriorslink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_click_on_interior_designers_in_new_delhi()">
+                <span>And user should be able to click on Interior Designers in New Delhi</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_navigate_to_the_interior_designers_in_new_delhi()">
+                <span>And user should be able to navigate to the Interior Designers in New Delhi</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_click_on_select_locality()">
+                <span>And user should be able to click on Select locality</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]"}
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a5c418e27505a0f4b1c248a3cd58850, findElement {using=xpath, value=(//div[@class='intsrp__topfilter__component']//child::div[@class='intsrp__topfilter__item has-dropdown  has-selected'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a5c418e27505a0f4b1c248a3cd58850
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.InteriorDesigners.user_should_be_able_to_click_on_select_locality(InteriorDesigners.java:49)
+	at ✽.user should be able to click on Select locality(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/InteriorDesigners.feature:13)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_select_on_the_select_locality_in_the_dropdown()">
+                <span>And user should be able to select on the Select locality in the dropdown</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_navigate_to_square_panels_page()">
+                <span>And user should be able to navigate to Square Panels page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.InteriorDesigners.user_should_be_able_to_see_the_maps_and_navigate_to_location()">
+                <span>Then user should be able to see the maps and navigate to location</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Services</p>
+            <p class="text-sm">
+              <span>9:53:39 am</span> / <span>00:01:02:918</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Services</h5>
+<span class='badge badge-success'>11.14.2024 9:53:39 am</span>
+<span class='badge badge-danger'>11.14.2024 9:54:42 am</span>
+<span class='badge badge-default'>00:01:02:918</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to click on  Bangalore and navigate to the Interior Designers in Bangalore</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_mouse_hover_on_home_interior_link()">
+                <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.Services.user_should_be_able_to_click_on_home_interior_design_services()">
+                <span>And user should be able to click on Home Interior Design Services</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.Services.user_should_be_able_to_navigated_to_home_interior_design_services_page()">
+                <span>And user should be able to navigated to  Home Interior Design Services page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.Services.user_should_be_able_to_click_on_bangalore()">
+                <span>And user should be able to click on bangalore</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da2df0238d83f69f5efd4338aaddf37e, clickElement {id=f.E48C762BC0E328AA124EBBEF28694E96.d.9FF39176DFB1F9E1EBCA1E58E46D0CBC.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58860/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da2df0238d83f69f5efd4338aaddf37e)] -> xpath: //a[text()='Bangalore']]
+Session ID: da2df0238d83f69f5efd4338aaddf37e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.Services.user_should_be_able_to_click_on_bangalore(Services.java:64)
+	at ✽.user should be able to click on bangalore(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/%20services.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.Services.user_should_be_navigated_to_the_interior_designers_in_bangalore()">
+                <span>Then user should be navigated to the Interior Designers in Bangalore</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MagicBricksBackground</p>
+            <p class="text-sm">
+              <span>9:54:42 am</span> / <span>00:02:58:502</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">MagicBricksBackground</h5>
+<span class='badge badge-success'>11.14.2024 9:54:42 am</span>
+<span class='badge badge-danger'>11.14.2024 9:57:40 am</span>
+<span class='badge badge-default'>00:02:58:502</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to click on Modular Kitchen and click on Design Ideas</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_hover_on_login_link()">
+                <span>When user should be able to hover on login link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_login_button_and_navigate_to_the_login_page()">
+                <span>And user should be able to click on login button and navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_enter_valid_credentails_and_click_on_next_button()">
+                <span>And user should be able to enter valid credentails and click on next button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue()">
+                <span>And user should be able to click on continue</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_mouse_hover_on_home_interior_link()">
+                <span>And user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_see_the_submobules_after_hovering()">
+                <span>And user should be able to see the submobules after hovering</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicBricksBackground.user_should_be_able_to_click_on_modular_kitchen_design_ideas()">
+                <span>Given user should be able to click on Modular Kitchen Design Ideas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicBricksBackground.user_should_be_able_to_scroll_down_and_click_on_l_shape_and_island()">
+                <span>When user  should be able to scroll down and click on L-shape and island</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>Validate user is able to click on Bathroom and click on  Design Ideas</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_hover_on_login_link()">
+                <span>When user should be able to hover on login link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_login_button_and_navigate_to_the_login_page()">
+                <span>And user should be able to click on login button and navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_enter_valid_credentails_and_click_on_next_button()">
+                <span>And user should be able to enter valid credentails and click on next button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue()">
+                <span>And user should be able to click on continue</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71d8932e6a8c29846d55ab74e867a16, clickElement {id=f.F38A3C466466A6C08A3F0FCBBB033EF4.d.383492BCAE568A138A6E640E4619B121.e.129}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49774/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f71d8932e6a8c29846d55ab74e867a16)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f71d8932e6a8c29846d55ab74e867a16
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue(MagicLogin.java:46)
+	at ✽.user should be able to click on continue(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/magicBricksBackground.feature:8)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_mouse_hover_on_home_interior_link()">
+                <span>And user should be able to mouse hover on homeInterior link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_see_the_submobules_after_hovering()">
+                <span>And user should be able to see the submobules after hovering</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.MagicBricksBackground.user_should_be_able_to_click_on_bedrooms_design_ideas()">
+                <span>Given user should be able to click on Bathroom Design Ideas</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.MagicBricksBackground.user_should_be_able_to_scroll_down_and_click_on_contemporary_and_traditional()">
+                <span>When user should be able to scroll down and click on Contemporary and Traditional</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="48"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MagicLogin</p>
+            <p class="text-sm">
+              <span>9:56:04 am</span> / <span>00:02:12:178</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">MagicLogin</h5>
+<span class='badge badge-success'>11.14.2024 9:56:04 am</span>
+<span class='badge badge-danger'>11.14.2024 9:58:16 am</span>
+<span class='badge badge-default'>00:02:12:178</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>Validate that the user can login to the application</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_hover_on_login_link()">
+                <span>When user should be able to hover on login link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_login_button_and_navigate_to_the_login_page()">
+                <span>And user should be able to click on login button and navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_enter_valid_credentails_and_click_on_next_button()">
+                <span>And user should be able to enter valid credentails and click on next button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue()">
+                <span>And user should be able to click on continue</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9691b3d5699ef2bc7de5b033e77d072, clickElement {id=f.92A6365AD7886FF7B3AC8244F4B3DE07.d.8C1EAD17E2C000DC19C72AB3D60EC560.e.134}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9691b3d5699ef2bc7de5b033e77d072)] -> xpath: (//button[contains(text(),'Continue')])[2]]
+Session ID: f9691b3d5699ef2bc7de5b033e77d072
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.MagicLogin.user_should_be_able_to_click_on_continue(MagicLogin.java:46)
+	at ✽.user should be able to click on continue(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/magicLogin.feature:9)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.stepDefinition.MagicLogin.user_should_be_logged_in()">
+                <span>Then user should be logged in</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="63"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Hover on Home Interior</p>
+            <p class="text-sm">
+              <span>9:57:16 am</span> / <span>00:00:45:239</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Hover on Home Interior</h5>
+<span class='badge badge-success'>11.14.2024 9:57:16 am</span>
+<span class='badge badge-danger'>11.14.2024 9:58:01 am</span>
+<span class='badge badge-default'>00:00:45:239</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=63</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to mouse hover on home interiors</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_mouse_hover_on_home_interior_link()">
+                <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.user_should_be_able_to_see_the_submobules_after_hovering()">
+                <span>Then user should be able to see the submobules after hovering</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="72"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Select City</p>
+            <p class="text-sm">
+              <span>9:57:40 am</span> / <span>00:01:19:294</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Select City</h5>
+<span class='badge badge-success'>11.14.2024 9:57:40 am</span>
+<span class='badge badge-danger'>11.14.2024 9:58:59 am</span>
+<span class='badge badge-default'>00:01:19:294</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=72</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="73"><span class="badge log fail-bg mr-2">Fail</span>Validate user can change the select city in verified properties and navigate to that particular page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="74"><span class="badge log pass-bg mr-2">Pass</span>Validate user can change the select city in verified properties and navigate to that particular page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on 1BHK Interior Design  and navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on select city</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to select on the 1 in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="81"><span class="badge log fail-bg mr-2">Fail</span>Validate user can change the select city in verified properties and navigate to that particular page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on 1BHK Interior Design  and navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And user should be able to click on select city</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fce61c8803aeaaa7db2581d6279c9ed1, clickElement {id=f.10C6B8584FCAB3565E1967898525BD97.d.958BD3BE3A054634CE6AF9D5D32CEEC6.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51610}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51610/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fce61c8803aeaaa7db2581d6279c9ed1)] -> xpath: //div[text()='Select City']]
+Session ID: fce61c8803aeaaa7db2581d6279c9ed1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.SelectCity.user_should_be_able_to_click_on_select_city(SelectCity.java:33)
+	at ✽.user should be able to click on select city(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/selectCity.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user should be able to select on the 2 in the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="85"><span class="badge log fail-bg mr-2">Fail</span>Validate user can change the select city in verified properties and navigate to that particular page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user should be able to mouse hover on homeInterior link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should be able to click on 1BHK Interior Design  and navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And user should be able to click on select city</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4557a7616fe316e7ea44626b2c04bdea, clickElement {id=f.734DF51F3EAF1ED03467816AFAF82391.d.3F635600353E03F68E1C9DE8764D9260.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4557a7616fe316e7ea44626b2c04bdea)] -> xpath: //div[text()='Select City']]
+Session ID: 4557a7616fe316e7ea44626b2c04bdea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.SelectCity.user_should_be_able_to_click_on_select_city(SelectCity.java:33)
+	at ✽.user should be able to click on select city(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/selectCity.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user should be able to select on the 3 in the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="93"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To SignUp</p>
+            <p class="text-sm">
+              <span>9:58:36 am</span> / <span>00:01:52:780</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To SignUp</h5>
+<span class='badge badge-success'>11.14.2024 9:58:36 am</span>
+<span class='badge badge-danger'>11.14.2024 10:00:29 am</span>
+<span class='badge badge-default'>00:01:52:780</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=93</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="94"><span class="badge log fail-bg mr-2">Fail</span>Validate that the user can sign in to the application</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinition.mbHomeInteriorOpen.browser_should_be_launched_and_url_should_be_navigated()">
+                <span>Given Browser should be launched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.HiSignUp.the_user_should_be_able_to_hover_on_login_link_and_click_on_sign_up_link()">
+                <span>When The user should be able to hover on login link and click on sign up link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.HiSignUp.click_on_main_sign_up_link()">
+                <span>And Click on main sign up link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.HiSignUp.enter_the_valid_credentials()">
+                <span>And Enter the valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.HiSignUp.click_on_sign_up_button()">
+                <span>And Click on sign up button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinition.HiSignUp.enter_the_otp_that_is_generated_to_the_mobile_number_given()">
+                <span>And Enter the otp that is generated to the mobile number given</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.stepDefinition.HiSignUp.click_on_continue_button()">
+                <span>Then Click on continue button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4eca7c7ad61a6cb5ad36aefd78d38b0f, findElement {using=xpath, value=//button[@onclick='verifyOtp()']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57436/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eca7c7ad61a6cb5ad36aefd78d38b0f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.HiSignUp.click_on_continue_button(HiSignUp.java:57)
+	at ✽.Click on continue button(file:///C:/Users/MEENA/git/repository2/MagicBricksHomeinterior/./src/test/resources/featureData/signup.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>com.hook.BaseClass.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4eca7c7ad61a6cb5ad36aefd78d38b0f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MEENA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57436/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eca7c7ad61a6cb5ad36aefd78d38b0f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+	at com.hook.BaseClass.afterScenario(BaseClass.java:36)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.ElementNotInteractableException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementNotInteractableException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:56:59 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='57'>And user should be able to click on continue</a>
+<div class="">
+<span class="badge badge-default">MagicBricksBackground.Validate user is able to click on Bathroom and click on Design Ideas.And user should be able to click on continue</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:57:59 am</td>
+<td>
+<a href="#" class="linked" test-id='48' id='76'>And user should be able to click on continue</a>
+<div class="">
+<span class="badge badge-default">MagicLogin.Validate that the user can login to the application.And user should be able to click on continue</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:54:38 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='20'>And user should be able to click on bangalore</a>
+<div class="">
+<span class="badge badge-default">Services.Validate user is able to click on Bangalore and navigate to the Interior Designers in Bangalore.And user should be able to click on bangalore</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:58:45 am</td>
+<td>
+<a href="#" class="linked" test-id='72' id='99'>And user should be able to click on select city</a>
+<div class="">
+<span class="badge badge-default">Select City.Validate user can change the select city in verified properties and navigate to that particular page.And user should be able to click on select city</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:58:58 am</td>
+<td>
+<a href="#" class="linked" test-id='72' id='105'>And user should be able to click on select city</a>
+<div class="">
+<span class="badge badge-default">Select City.Validate user can change the select city in verified properties and navigate to that particular page.And user should be able to click on select city</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:54:41 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='26'>And user should be able to click on Select locality</a>
+<div class="">
+<span class="badge badge-default">InteriorDesigners.Validate user is able to navigate to the Square Panels page and see location.And user should be able to click on Select locality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchWindowException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchWindowException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:00:29 am</td>
+<td>
+<a href="#" class="linked" test-id='93' id='114'>Then Click on continue button</a>
+<div class="">
+<span class="badge badge-default">To SignUp.Validate that the user can sign in to the application.Then Click on continue button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:00:29 am</td>
+<td>
+<a href="#" class="linked" test-id='93' id='115'>com.hook.BaseClass.afterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">To SignUp.Validate that the user can sign in to the application.com.hook.BaseClass.afterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 14, 2024 09:53:38 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 14, 2024 10:00:29 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>6</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='75%'><b>6</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='36%'><b>4</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='63%'><b>7</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='74%'><b>55</b> steps passed</small></div>
+<div>
+<small data-tooltip='10%'><b>8</b> steps failed,
+<b>11</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Kolkata new projects":145.074,"InteriorDesigners":78.314,"Services":62.918,"MagicBricksBackground":178.502,"MagicLogin":132.178,"Hover on Home Interior":45.239,"Select City":79.294,"To SignUp":112.78
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 6,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 4,
+failChild: 7,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 55,
+failGrandChild: 8,
+warningGrandChild: 0,
+skipGrandChild: 11,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
